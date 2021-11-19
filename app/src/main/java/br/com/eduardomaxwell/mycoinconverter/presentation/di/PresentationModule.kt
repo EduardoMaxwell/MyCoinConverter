@@ -1,7 +1,7 @@
 package br.com.eduardomaxwell.mycoinconverter.presentation.di
 
-import br.com.dio.coinconverter.presentation.HistoryViewModel
-import br.com.dio.coinconverter.presentation.MainViewModel
+import MainViewModel
+import br.com.eduardomaxwell.mycoinconverter.presentation.HistoryViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.context.loadKoinModules
 import org.koin.core.module.Module

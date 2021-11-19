@@ -5,9 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import br.com.dio.coinconverter.data.model.Coin
-import br.com.dio.coinconverter.data.model.ExchangeResponseValue
 import br.com.eduardomaxwell.mycoinconverter.core.extensions.formatCurrency
+import br.com.eduardomaxwell.mycoinconverter.data.model.Coin
+import br.com.eduardomaxwell.mycoinconverter.data.model.ExchangeResponseValue
 import br.com.eduardomaxwell.mycoinconverter.databinding.ItemHistoryBinding
 
 class HistoryAdapter : ListAdapter<ExchangeResponseValue, HistoryAdapter.ViewHolder>(

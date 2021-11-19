@@ -1,13 +1,12 @@
 package br.com.eduardomaxwell.mycoinconverter.ui.history
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
-import br.com.dio.coinconverter.presentation.HistoryViewModel
-import br.com.eduardomaxwell.mycoinconverter.R
 import br.com.eduardomaxwell.mycoinconverter.core.extensions.createDialog
 import br.com.eduardomaxwell.mycoinconverter.core.extensions.createProgressDialog
 import br.com.eduardomaxwell.mycoinconverter.databinding.ActivityHistoryBinding
+import br.com.eduardomaxwell.mycoinconverter.presentation.HistoryViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class HistoryActivity : AppCompatActivity() {

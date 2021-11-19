@@ -1,16 +1,16 @@
 package br.com.eduardomaxwell.mycoinconverter.ui.main
 
+import MainViewModel
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
-import br.com.dio.coinconverter.data.model.Coin
-import br.com.dio.coinconverter.presentation.MainViewModel
 import br.com.eduardomaxwell.mycoinconverter.R
 import br.com.eduardomaxwell.mycoinconverter.core.extensions.*
+import br.com.eduardomaxwell.mycoinconverter.data.model.Coin
 import br.com.eduardomaxwell.mycoinconverter.databinding.ActivityMainBinding
 import br.com.eduardomaxwell.mycoinconverter.ui.history.HistoryActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel

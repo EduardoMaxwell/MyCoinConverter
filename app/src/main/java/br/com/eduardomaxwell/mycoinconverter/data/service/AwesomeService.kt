@@ -1,6 +1,6 @@
 package br.com.eduardomaxwell.mycoinconverter.data.service
 
-import br.com.dio.coinconverter.data.model.ExchangeResponse
+import br.com.eduardomaxwell.mycoinconverter.data.model.ExchangeResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 

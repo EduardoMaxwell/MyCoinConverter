@@ -1,8 +1,8 @@
-package br.com.dio.coinconverter.presentation
+package br.com.eduardomaxwell.mycoinconverter.presentation
 
 import androidx.lifecycle.*
-import br.com.dio.coinconverter.data.model.ExchangeResponseValue
-import br.com.dio.coinconverter.domain.ListExchangeUseCase
+import br.com.eduardomaxwell.mycoinconverter.data.model.ExchangeResponseValue
+import br.com.eduardomaxwell.mycoinconverter.domain.ListExchangeUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect
@@ -16,6 +16,7 @@ class HistoryViewModel(
 
     private val _state = MutableLiveData<State>()
     val state: LiveData<State> = _state
+
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
     private fun getExchanges() {
         viewModelScope.launch {

@@ -1,7 +1,7 @@
 package br.com.eduardomaxwell.mycoinconverter.domain
 
-import ExchangeResponseValue
 import br.com.eduardomaxwell.mycoinconverter.core.UseCase
+import br.com.eduardomaxwell.mycoinconverter.data.model.ExchangeResponseValue
 import br.com.eduardomaxwell.mycoinconverter.data.repository.CoinRepository
 import kotlinx.coroutines.flow.Flow
 
