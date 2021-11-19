@@ -1,12 +1,10 @@
-package br.com.dio.coinconverter.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import br.com.dio.coinconverter.data.model.ExchangeResponseValue
-import br.com.dio.coinconverter.domain.GetExchangeValueUseCase
-import br.com.dio.coinconverter.domain.SaveExchangeUseCase
+import br.com.eduardomaxwell.mycoinconverter.domain.GetExchangeValueUseCase
+import br.com.eduardomaxwell.mycoinconverter.domain.SaveExchangeUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect

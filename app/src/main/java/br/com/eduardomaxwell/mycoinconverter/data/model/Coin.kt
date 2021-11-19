@@ -1,4 +1,4 @@
-package br.com.dio.coinconverter.data.model
+package br.com.eduardomaxwell.mycoinconverter.data.model
 
 import java.util.*
 

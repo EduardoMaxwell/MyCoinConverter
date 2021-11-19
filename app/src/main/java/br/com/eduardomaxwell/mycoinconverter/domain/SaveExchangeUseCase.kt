@@ -1,12 +1,12 @@
-package br.com.dio.coinconverter.domain
+package br.com.eduardomaxwell.mycoinconverter.domain
 
-import br.com.dio.coinconverter.core.UseCase
-import br.com.dio.coinconverter.data.model.ExchangeResponseValue
-import br.com.dio.coinconverter.data.repository.CoinRepository
+import ExchangeResponseValue
+import br.com.eduardomaxwell.mycoinconverter.core.UseCase
+import br.com.eduardomaxwell.mycoinconverter.data.repository.CoinRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
-class SaveExchangeUseCase(private val repository: CoinRepository):UseCase.NoSource<ExchangeResponseValue>() {
+class SaveExchangeUseCase(private val repository: CoinRepository): UseCase.NoSource<ExchangeResponseValue>() {
 
     override suspend fun execute(param: ExchangeResponseValue): Flow<Unit> {
        return flow {

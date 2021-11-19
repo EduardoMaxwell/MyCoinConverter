@@ -1,10 +1,9 @@
 package br.com.eduardomaxwell.mycoinconverter.data.di
 
 import android.util.Log
-import br.com.dio.coinconverter.data.repository.CoinRepository
-import br.com.dio.coinconverter.data.repository.CoinRepositoryImpl
-
 import br.com.eduardomaxwell.mycoinconverter.data.database.AppDatabase
+import br.com.eduardomaxwell.mycoinconverter.data.repository.CoinRepository
+import br.com.eduardomaxwell.mycoinconverter.data.repository.CoinRepositoryImpl
 import br.com.eduardomaxwell.mycoinconverter.data.service.AwesomeService
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient

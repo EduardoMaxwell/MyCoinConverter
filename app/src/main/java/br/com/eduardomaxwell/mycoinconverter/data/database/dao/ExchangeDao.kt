@@ -1,10 +1,10 @@
 package br.com.eduardomaxwell.mycoinconverter.data.database.dao
 
+import ExchangeResponseValue
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import br.com.dio.coinconverter.data.model.ExchangeResponseValue
 import kotlinx.coroutines.flow.Flow
 
 @Dao

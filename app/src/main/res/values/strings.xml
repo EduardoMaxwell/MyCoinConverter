@@ -5,4 +5,5 @@
     <string name="hint_txt_to">Para:</string>
     <string name="txt_button_converter">Converter</string>
     <string name="txt_button_save">Salvar</string>
+    <string name="title_menu_history">History</string>
 </resources>

@@ -1,4 +1,4 @@
-package br.com.dio.coinconverter.data.model
+package br.com.eduardomaxwell.mycoinconverter.data.model
 
 data class ErrorResponse (
     val status: Long,

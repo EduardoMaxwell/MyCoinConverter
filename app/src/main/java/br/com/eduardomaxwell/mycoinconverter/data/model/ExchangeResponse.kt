@@ -1,4 +1,4 @@
-package br.com.dio.coinconverter.data.model
+package br.com.eduardomaxwell.mycoinconverter.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

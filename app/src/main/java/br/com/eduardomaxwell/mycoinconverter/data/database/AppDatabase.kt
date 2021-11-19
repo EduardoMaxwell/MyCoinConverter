@@ -1,10 +1,10 @@
 package br.com.eduardomaxwell.mycoinconverter.data.database
 
+import ExchangeResponseValue
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import br.com.dio.coinconverter.data.model.ExchangeResponseValue
 import br.com.eduardomaxwell.mycoinconverter.data.database.dao.ExchangeDao
 
 @Database(entities = [ExchangeResponseValue::class], version = 1)
