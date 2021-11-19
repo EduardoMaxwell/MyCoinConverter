@@ -1,4 +1,4 @@
-package br.com.dio.coinconverter.data.repository
+package br.com.eduardomaxwell.mycoinconverter.data.repository
 
 import br.com.dio.coinconverter.data.model.ExchangeResponseValue
 import kotlinx.coroutines.flow.Flow
