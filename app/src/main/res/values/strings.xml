@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Coin Converter</string>
+    <string name="hint_txt_coin_value">Valor</string>
+    <string name="hint_txt_from">Converter de:</string>
+    <string name="hint_txt_to">Para:</string>
+    <string name="txt_button_converter">Converter</string>
+    <string name="txt_button_save">Salvar</string>
 </resources>
