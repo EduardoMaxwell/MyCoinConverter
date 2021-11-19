@@ -1,4 +1,4 @@
-package br.com.eduardomaxwell.mycoinconverter.ui
+package br.com.eduardomaxwell.mycoinconverter.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
